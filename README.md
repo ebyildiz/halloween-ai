@@ -1,3 +1,3 @@
 # halloween-ai
 
-![til](./src/live-demo.gif)
+![til](./live-demo.gif)
