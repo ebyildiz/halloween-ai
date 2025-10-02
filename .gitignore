@@ -14,7 +14,7 @@ dist-ssr
 
 
 # Editor directories and files
-.env
+ai-website/.env
 .vscode/*
 !.vscode/extensions.json
 .idea
