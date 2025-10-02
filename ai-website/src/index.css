@@ -1,0 +1,112 @@
+
+body {
+  margin: 0;
+}
+
+.header-component {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: orange;
+  gap: 15px;
+  margin-left: -100px;
+}
+
+.app-title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header-logo {
+  width: 70px;
+  margin-bottom: 20px;
+
+}
+
+.main-component {
+  display: flex;
+  margin-left: -80px;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 140px);
+}
+
+.description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.note {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  width: 1000px;
+  margin-top: -10px;
+  color: grey;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  margin-top: 20px;
+  place-items: center;
+}
+
+.input-label {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  width: max-content;
+  margin-bottom: 0px;
+  color: #333;
+
+}
+
+.input-item {
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.input-button {
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.recommendation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 1000px;
+  margin-top: 50px;
+}
