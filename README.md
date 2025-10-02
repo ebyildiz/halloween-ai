@@ -4,8 +4,9 @@ Hello, this is an app I made using Claude AI as a solo project after completing 
 
 To run it locally, first pull the github repository, cd into it and write these prompts in the command line:
 
-npm install
-npm run dev
+```npm install```
+
+```npm run dev```
 
 Thank you for checking this project!
 
